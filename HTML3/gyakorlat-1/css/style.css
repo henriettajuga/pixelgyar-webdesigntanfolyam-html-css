@@ -1,0 +1,37 @@
+
+			h2 {
+				color: sienna;
+				font-family: Helvetica, sans-serif;
+			}
+			p {
+				font-family: Courier, monospace;
+				font-size: 18px;
+			}
+			h1 {
+				background-color: sienna;
+				color: white;
+				text-align: center;
+				border: 5px dotted tan;
+			}
+			ul {
+				font-style: italic;
+			}
+			table {
+				border: 1px solid black;
+			}
+			thead {
+				background-color: tan;
+			}
+			#kivansag {
+    			text-align: center;
+    			border: 1px solid black;
+				font-size: 30px;
+			}
+			.alcim {
+				text-align: center;
+				border: 1px dotted tan;
+				color: green;
+			}
+			#tortenet {
+				color: red;
+			}

@@ -1,0 +1,44 @@
+body {
+    background-color: #f2f2f2;
+    color: #2c4001;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+h1 {
+    color: #618c03;
+    font-family: 'Cinzel', Copperplate, Papyrus, fantasy;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    color:#4a7000;
+    font-family: 'Cinzel', Copperplate, Papyrus, fantasy;
+    font-weight: normal;
+    font-size: 24px;
+}
+p {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #2c4001;
+	font-size: 20px;
+}
+ul {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #2c4001;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.kiemelt-bekezdes {
+    background-color: #e6f0c3;
+    border: 2px solid #618c03;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding: 10px;
+}
+#fontos {
+    color: #2c4001;
+    text-decoration: underline;
+}
+img {
+    margin-right: 10px; /* üres hely a jobb oldalon */
+}

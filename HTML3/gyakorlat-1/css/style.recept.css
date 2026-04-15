@@ -1,0 +1,62 @@
+
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    			line-height: 1.6;
+    			margin: 20px;
+    			background-color: #fff8f0;
+    			color: #333;
+			}
+			h1 {
+				border: 4px double tan;
+				background-color: sienna;
+				color: white;
+				text-align: center;
+    			padding: 15px;
+   		 		font-size: 40px
+			}	
+			h2 {
+				color: sienna;
+    			font-family: 'Helvetica', sans-serif;
+    			text-align: center;
+    			margin-top: 40px;
+			}
+			.alcim {
+				color: darkgreen;
+    			border-bottom: 2px solid tan;
+    			padding-bottom: 5px;
+			}
+			p {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+			ul {
+				margin-left: 40px;
+    			font-style: italic;
+				color: #5a3e36;
+			}
+			table {
+    			border: 1px solid black;
+    			margin-top: 30px;
+				width: 20%;
+			}
+			thead {
+				background-color: tan;
+			}
+			th, td {
+    		border: 1px solid;
+    		padding: 5px;
+    		text-align: center;
+			}
+			#kivansag {
+				border-top: 3px solid sienna;
+    			border-bottom: 3px solid sienna;
+				text-align: center;
+                font-size: 2em;
+    			margin-top: 40px;
+    			font-weight: bold;
+    			color: sienna;
+			}
+			#tortenet {
+				color: sienna;
+			}
