@@ -1,0 +1,143 @@
+/* A * jel az úgynevezett univerzális kijelölő, amit ebbe a definícióba írsz, minden elemre érvényes lesz.
+   Ezt a definíciót ezentúl minden stíluslapod elejére írd be! */
+* {
+	margin: 0; /* A margin jellemző külső margót állít be egy elemnek. Itt minden elem margóját lenullázzuk. */
+	padding: 0; /* A padding jellemző belső térközt állít be egy elemnek. Ezt is lenullázzuk, hogy ne a böngésző alapértelmezett értéke  legyen, hanem amit beállítunk. */
+	box-sizing: border-box; 
+}
+body {
+	background-color: #171c1f;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+	line-height: 1.6;
+}
+/* A FEJLÉC STÍLUSDEFINÍCIÓI */
+header {
+	text-align: center;
+	padding: 10px;
+}
+#logo {
+	width: 300px;
+	height: auto;
+	margin-bottom: 15px;
+}
+nav {
+	background-color: #243444;
+	height: 60px;
+	line-height: 60px; /* A sormagasság egyenlő a nav elem magasságával, így a tartalom függőlegesen középre kerül. Ez egy hasznos trükk! */
+	text-align: center;
+	max-width: 99%;
+	margin: 0 auto;
+}
+.menu-link {
+	color: white;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-decoration: none; 
+	padding-left: 15px;
+	padding-right: 15px;
+	letter-spacing: 1px; /* A betűk közötti távolságot állítja be. */
+	padding: 6px 12px;
+}
+.menu-link:hover {
+	background: linear-gradient(90deg, #00ff00, #ffff00);
+	color: #171c1f;
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 6px 12px;
+}
+/* A FŐ TARTALMI RÉSZ STÍLUSDEFINÍCIÓI */
+main {
+	border-right: 1px solid #cacbce;
+	width: 80%; /* A main elem a kijelző teljes szélességéből 80%-ot fog elfoglalni. */
+	float: left;
+	padding-right: 20px;
+}
+article {
+	padding: 20px;
+	text-align: left;
+}
+section {
+	border: 1px solid #cacbce;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+aside {
+	width: 20%;	/* Az aside elem a kijelző teljes szélességéből 20%-ot fog elfoglalni. */
+	max-width: 260px;
+	min-width: 180px;
+	padding: 20px;
+	float: right;
+	background: #243444;
+	border-left: 2px solid #00ff00;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+img {
+	max-width: 100%; /* Minden kép szélessége maximum annyi lehet, amennyi az őt tartalmazó elem szélessége. */
+}
+h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 26px;
+	margin-bottom: 20px;
+	color: #00ff00;
+}
+h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #ffff00;
+}
+p { 
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+address {
+	padding: 10px;
+	font-size: 22px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.main-paragraph {
+	background: #243444;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-left: 4px solid #00ff00;
+	border-radius: 8px;
+}
+.inverse-h3 {
+	background: linear-gradient(90deg, #00ff00, #ffff00);
+	color: #171c1f;
+	padding: 10px;
+	border-radius: 8px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+iframe {
+	width: 100%;
+	height: 300px;
+}
+/* A LÁBLÉC STÍLUSDEFINÍCIÓI */
+footer {
+	clear: both;
+	color: white;
+    text-align: center;
+	border-top: 1px solid #cacbce;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.icon {
+	width: 40px;
+	margin: 5px;
+}
