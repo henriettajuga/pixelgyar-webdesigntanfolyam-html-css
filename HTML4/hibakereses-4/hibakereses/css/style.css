@@ -1,0 +1,71 @@
+/* A * jel az úgynevezett univerzális kijelölő, amit ebbe a definícióba írsz, minden elemre érvényes lesz.
+   Ezt a definíciót ezentúl minden stíluslapod elejére írd be! */
+* {
+	margin: 0; /* A margin jellemző külső margót állít be egy elemnek. Itt minden elem margóját lenullázzuk. */
+	padding: 0; /* A padding jellemző belső térközt állít be egy elemnek. Ezt is lenullázzuk, hogy ne a böngésző alapértelmezett értéke  legyen, hanem amit beállítunk. */
+	box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(-90deg, orange, yellow); /* Színátmenetes háttér. */
+    margin: 0 auto; /* Ez a sor középre rendezi az egész oldal tartalmát. */
+    padding: 30px;
+    text-align: center;
+    max-width: 1024px;
+}
+header {
+    background: white;
+    padding: 30px;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid black;
+}
+nav {
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ a:hover{
+    color: #ffa600;
+}
+main {
+    background: white;
+    padding: 30px;
+    font-size: 18px;
+}
+section {
+    margin-bottom: 70px;
+}
+h2 {
+    color: #6B8754;
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+p {
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-img {
+    max-width: 70%; 
+}
+.center {
+    text-align: center;
+}
+
