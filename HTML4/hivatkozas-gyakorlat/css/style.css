@@ -1,0 +1,26 @@
+a {
+    color: #ff3399;
+    font-size: 20px;
+    text-decoration: none; 
+  }
+  .oldal-hivatkozas {
+    color: darkcyan;
+    font-size: 22px;
+    text-decoration: none; 
+}
+#telefon {
+    color: #696969;
+    font-size: 16px;
+    text-decoration: none; 
+}
+a:hover {
+    color: #b30059;
+}
+.oldal-hivatkozas:hover {
+    text-decoration: underline; 
+    color: darkcyan;
+}
+#telefon:hover {
+    background-color: #696969;
+    color: white;
+}
